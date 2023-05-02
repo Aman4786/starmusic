@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star Music</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <ul>
+        <li class="img">
+          <img src="Images/logo.png.png" alt="logo" />starmusic
+        </li>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </div>
+    <div class="container">
+      <div class="songList">
+       <h1>Listen your favourite song for free</h1>
+       <div class="songItemContainer">
+       <div class="songItem">
+        <img src="covers/1.jpg" alt="covers">
+        <span class="songName">Eminem-Love</span>
+        <span class="songListPlay"><span class="timeSpan">04:26<i id="1" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+       </div>
+       <div class="songItem">
+        <img src="covers/2.jpg" alt="covers">
+        <span class="songName">Bad liar</span>
+        <span class="songListPlay"><span class="timeSpan">04:21<i id="2" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+       </div>
+       <div class="songItem">
+        <img src="covers/3.jpg" alt="covers">
+        <span class="songName">Bones</span>
+        <span class="songListPlay"><span class="timeSpan">02:45<i id="3" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+       </div>
+       <div class="songItem">
+        <img src="covers/4.jpg" alt="covers">
+        <span class="songName">Whatever it takes</span>
+        <span class="songListPlay"><span class="timeSpan">03:39<i id="4" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+       </div>
+       <div class="songItem">
+        <img src="covers/5.jpg" alt="covers">
+        <span class="songName">Infinity</span>
+        <span class="songListPlay"><span class="timeSpan">03:58<i id="5" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+       </div>
+       <div class="songItem">
+        <img src="covers/6.jpg" alt="covers">
+        <span class="songName">Linkin park</span>
+        <span class="songListPlay"><span class="timeSpan">03:36<i id="6" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+       </div>
+       <div class="songItem">
+        <img src="covers/7.jpg" alt="covers">
+        <span class="songName">Good Bye</span>
+        <span class="songListPlay"><span class="timeSpan">03:28<i id="7" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+       </div>
+       <div class="songItem">
+        <img src="covers/8.jpg" alt="covers">
+        <span class="songName">Human</span>
+        <span class="songListPlay"><span class="timeSpan">03:17<i id="8" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+       </div>
+      </div>
+    </div>
+
+      <div class="songBanner"></div>
+    </div>
+  <div class="bottom">
+    <input type="range" id="myProgressBar" min="0" value="0" max="100">
+    <div class="icons">
+      <!-- fontAwesome Icones -->
+      <i class="fa-solid fa-2x fa-backward" id="previous"></i>
+      <i class="fa-regular fa-2x fa-circle-play" id="masterPlay"></i>
+      <i class="fa-solid fa-2x fa-forward" id="next"></i>
+    </div>
+    <div class="songInfo">
+      <img src="playing.gif" width="50px" alt="gif" id="gif">
+    </div>
+  </div>
+  <script src="https://kit.fontawesome.com/d74b7df48a.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body> 
+</html>
